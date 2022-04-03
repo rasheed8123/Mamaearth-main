@@ -5,7 +5,10 @@ const baby = require("../models/hair.model")
 app.get("",
 async(req,res)=>{
     try{
-     const data = await baby.find({})
+     const page = req.query.page  || 1
+     const pagesize = req.query.pagesize || 10
+     const skip = (page-1)*pagesize 
+     const data = await baby.find({}).skip(skip).limit(pagesize).lean().exec()
      return res.send(data)
     }catch(err){
         console.log(err.meassge)
