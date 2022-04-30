@@ -1,4 +1,6 @@
 # How To Use
+ To start with the project open the index.html file
+
 
 First User Come to the Index page and user can see two option Login and Sign Up , If User alredy Sign Up then user login other wise user Create New Account and then Login.
 And then user Redirected to Product Page and see a list of Fassos product, In Product Page user Fielter Product as per Meals and Offers and Also Search Product as Per user Requirement, After user Add Multiple Product as per Requirement after When the user click on process User has to Redirected in Address Page And Fill address and the user autoMatically Redirected to Payment page and User Fill Payment Details Once a Payment Done User Automatically Redirected to Orders Page and user see list of orders an once a orers Is Deliverd user can See a successfull Message on screen.
@@ -16,6 +18,14 @@ TEAM MEMBERS
 5-Shaheen
 
 6-Rasheed
+
+
+## Tech Stack Used : -
+
+- #### Languages
+  - `HTML`
+  - `CSS`
+  - `JavaScript ES6`
 
 
 we had to clone Mamaearth(ecommerce website) with all the functionalities. we divided the roles and responsibilities on our very first day of collaboration and started working .Here are the glimpse on our projects
